@@ -54,7 +54,6 @@ const Home = () => {
 
   return (
     <div className="bg-[#F4E8D7] text-[#4B2E1D]">
-      {/* Hero */}
       <section className="py-20 text-center bg-[#EADBC8]">
         <motion.h1 initial={{ opacity: 0, y: -40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="text-4xl md:text-5xl font-bold">
           Welcome to TimberFlow
@@ -74,8 +73,6 @@ const Home = () => {
           </button>
         </div>
       </section>
-
-      {/* Furniture Collection */}
       <section id="furniture" className="py-14 px-6 md:px-12">
         <h2 className="text-3xl font-semibold text-center mb-10">Our Furniture Collection</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -91,8 +88,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      {/* Wood Types */}
       <section className="py-14 px-6 md:px-12 bg-[#EADBC8]">
         <h2 className="text-3xl font-semibold text-center mb-10">Types of Wood We Use</h2>
         <div className="grid grid-cols-3 md:grid-cols-6 gap-6">
@@ -104,8 +99,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      {/* Testimonials */}
       <section className="py-14 px-6 md:px-12">
         <h2 className="text-3xl font-semibold text-center mb-10">What Our Customers Say</h2>
         <div className="grid md:grid-cols-3 gap-6">
@@ -121,8 +114,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      {/* Stats */}
       <section className="py-14 px-6 md:px-12 bg-[#EADBC8]">
         <div className="grid grid-cols-2 md:grid-cols-4 text-center gap-6">
           <div>
@@ -143,8 +134,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="bg-[#4B2E1D] text-white py-6 text-center">
         <p>© 2025 TimberFlow. All rights reserved.</p>
       </footer>
