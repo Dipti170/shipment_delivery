@@ -53,10 +53,9 @@ const App = () => {
             </ProtectedRoute>
           }
         />
-        {/* Auth Route */}
+      
         <Route path="/auth" element={<Auth />} />
         <Route path="/create" element={<CreateShipment />} />
-        {/* Catch-all redirect */}
         <Route path="*" element={<Navigate to={isLoggedIn ? "/" : "/auth"} />} />
       </Routes>
     </>
