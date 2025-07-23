@@ -35,7 +35,7 @@ const TrackShipment = () => {
       }
     });
 
-    return () => unsubscribe(); // clean up listener
+    return () => unsubscribe(); 
   }, []);
 
   useEffect(() => {
@@ -44,7 +44,6 @@ const TrackShipment = () => {
     if (userEmail) {
       const userShipments = data.filter(ship => ship.userEmail === userEmail);
 
-      // Sort by most recent
       const sorted = userShipments.sort(
         (a, b) => new Date(b.orderDate) - new Date(a.orderDate)
       );
