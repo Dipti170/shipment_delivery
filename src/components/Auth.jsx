@@ -58,7 +58,7 @@ const Auth = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-[#f5f1ea] p-4">
       <div className="bg-white shadow-lg rounded-xl flex flex-col md:flex-row items-center max-w-4xl w-full p-8">
-        {/* Left Side Image */}
+        
         <div className="flex flex-col items-center justify-center md:w-1/2 mb-4 md:mb-0">
           <img
             src={isLogin ? loginImage : registerImage}
@@ -69,8 +69,6 @@ const Auth = () => {
             {isLogin ? "Login to TimberFlow" : "Register to TimberFlow"}
           </p>
         </div>
-
-        {/* Form Section */}
         <div className="md:w-1/2 w-full">
           <div className="flex items-center justify-center mb-6">
             <img src={timberLogo} alt="Logo" className="w-10 h-10 mr-2" />
